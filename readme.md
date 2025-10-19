@@ -1,4 +1,5 @@
 # 🚀 Coding Website
+
 A modern, responsive website dedicated to coding tutorials, resources, and projects.
 
 ---
@@ -26,59 +27,72 @@ flowchart TD
     D --> D3[Community Posts]
 
     E --> E1[Email / Social Links]
-🧠 About
+```
+
+---
+
+## 🧠 About
+
 This project provides a clean, intuitive platform for sharing coding knowledge — tutorials, code snippets, project showcases, and blog posts.
 
-✨ Features
-Responsive design for desktop, tablet, and mobile
+---
 
-Dark and light themes
+## ✨ Features
 
-Tutorials for HTML, CSS, JavaScript, Python, and more
+* Responsive design for desktop, tablet, and mobile
+* Dark and light themes
+* Tutorials for HTML, CSS, JavaScript, Python, and more
+* Code snippet viewer with syntax highlighting
+* Project showcase with live previews
+* Blog/news section for updates
 
-Code snippet viewer with syntax highlighting
+---
 
-Project showcase with live previews
+## 🎗️ System Architecture
 
-Blog/news section for updates
-
-🏗️ System Architecture
-mermaid
-Copy code
+```mermaid
 graph LR
     A[Frontend - React / HTML / CSS / JS] --> B[Backend - Node.js / Express]
     B --> C[Database - MongoDB / Firebase]
     B --> D[Deployment - Vercel / Netlify / GitHub Pages]
     D --> E[User]
-🛠️ Technologies Used
-Front-End: HTML5, CSS3, JavaScript (ES6+)
+```
 
-Frameworks/Libraries: TailwindCSS, React (optional)
+---
 
-Deployment: GitHub Pages / Vercel / Netlify
+## 🛠️ Technologies Used
 
-Version Control: Git & GitHub
+* **Front-End:** HTML5, CSS3, JavaScript (ES6+)
+* **Frameworks/Libraries:** TailwindCSS, React (optional)
+* **Deployment:** GitHub Pages / Vercel / Netlify
+* **Version Control:** Git & GitHub
 
-⚙️ Getting Started
-Prerequisites
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
 Make sure you have the following installed:
 
-Node.js (v14+)
+* Node.js (v14+)
+* npm or yarn
+* A modern browser
 
-npm or yarn
+### Installation
 
-A modern browser
-
-Installation
-bash
-Copy code
+```bash
 git clone https://github.com/dharanitharan27/Coding_Website.git
 cd Coding_Website
 npm install
 npm start
-📁 Project Structure
-bash
-Copy code
+```
+
+---
+
+## 📁 Project Structure
+
+```bash
 /Coding_Website
 │
 ├── /assets       # images, icons, fonts
@@ -89,12 +103,16 @@ Copy code
 ├── /blog         # blog posts
 ├── index.html    # homepage
 └── README.md     # this file
-🤝 Contributing
+```
+
+---
+
+## 🤝 Contributing
+
 Contributions are welcome!
 Follow these steps to contribute:
 
-bash
-Copy code
+```bash
 # 1. Fork the repository
 # 2. Create a new branch
 git checkout -b feature/my-feature
@@ -104,14 +122,20 @@ git commit -m "Add feature"
 
 # 4. Push your branch
 git push origin feature/my-feature
+```
+
 Then, open a Pull Request 🚀
 
-🧾 License
-This project is licensed under the MIT License.
+---
+
+## 🧾 License
+
+This project is licensed under the **MIT License**.
 Feel free to use, modify, and share responsibly.
 
-📬 Contact
-GitHub: dharanitharan27
+---
 
-Email: dharanitharan725@gmail.com
+## 📬 Contact
 
+* **GitHub:** [dharanitharan27](https://github.com/dharanitharan27)
+* **Email:** [dharanitharan725@gmail.com](mailto:dharanitharan725@gmail.com)
